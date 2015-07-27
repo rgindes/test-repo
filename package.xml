@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Account.rs_accountExecutive__c</members>
+        <members>Activity.Mirage__Mirage_OpenCTI_CalledId__c</members>
+        <members>Activity.Mirage__Mirage_OpenCTI_CallerId__c</members>
+        <members>Lead.Owner_Assigned_Date__c</members>
+        <members>Qualification__c.Lead_Referring_Client__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Account-Enterprise</members>
+        <members>Account-Feed Enterprise</members>
+        <members>Contact-Enterprise</members>
+        <members>Contact-Feed Enterprise</members>
+        <members>Contact-Rolodex</members>
+        <members>Contact-Rolodex Feed</members>
+        <members>Enrollment__c-Direct Enrollment Layout</members>
+        <members>Enrollment__c-Exec</members>
+        <members>Enrollment__c-Feed Direct Enrollment Layout</members>
+        <members>Enrollment__c-Staff</members>
+        <members>Enrollment__c-Sub</members>
+        <members>Lead-Associate</members>
+        <members>Lead-Client</members>
+        <members>Lead-Feed Client</members>
+        <members>Lead-FeedAssociate</members>
+        <members>Opportunity-B2B</members>
+        <members>Opportunity-Contract</members>
+        <members>Opportunity-Feed B2B</members>
+        <members>Opportunity-Feed Contract</members>
+        <members>PersonAccount-Associate</members>
+        <members>PersonAccount-Feed Associate</members>
+        <members>Qualification__c-Annual</members>
+        <members>Qualification__c-Enrollment Layout</members>
+        <members>Qualification__c-Qualification Layout</members>
+        <members>Task-Task Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>API</members>
+        <members>Admin</members>
+        <members>Read</members>
+        <members>Read Write</members>
+        <members>Service Cloud Beta</members>
+        <name>Profile</name>
+    </types>
+    <types>
+        <members>Lead.Set_Owner_Assigned_Date</members>
+        <name>WorkflowFieldUpdate</name>
+    </types>
+    <types>
+        <members>Lead.Set Owner Assigned Date</members>
+        <name>WorkflowRule</name>
+    </types>
+    <version>33.0</version>
+</Package>
